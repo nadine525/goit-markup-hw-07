@@ -6,8 +6,8 @@
 
 body {
   margin: 0;
-  background-color: var(--background-color);
-  color: var(--primary-text-color);
+  background-color: #ffffff;
+  color: #757575;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -428,14 +428,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 10px;
 }
 .social__links {
-  margin-right: 10px;
   width: 44px;
   height: 44px;
 }
 .social__links:last-child {
-  margin-right: 0;
+  gap: 0;
 }
 .social__icon {
   fill: #AFB1B8;
