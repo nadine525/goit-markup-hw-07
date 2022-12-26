@@ -7,7 +7,7 @@
     <title>Портфоліо</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
     <!--Шапка сторінки-->
@@ -37,13 +37,13 @@
         <ul class="contacts list">
           <li class="contacts__items">
             <a href="mailto:info@devstudio.com" class="contacts__link">
-              <svg class="contact__icon" width="16" height="12">
+              <svg class="contact-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a>
           </li>
           <li class="contacts__items">
             <a href="tel:+380961111111" class="contacts__link">
-              <svg class="contact__icon" width="10" height="16">
+              <svg class="contact-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>+38 096 111 11 11
             </a>
@@ -243,11 +243,10 @@
     </main>
 
     <!--Підвал сторінки-->
-    <footer class="footer">
+<footer class="footer">
       <div class="footer__container">
         <div class="footer-first">
-          <a href="/" class="footer__logo"><span class="logo__accent">Web</span>Studio</a>
-
+          <a href="/" class="logo-footer"><span class="logo--accent">Web</span>Studio</a>
           <address class="address">
             <ul class="list">
               <li class="address__panel">
@@ -262,11 +261,9 @@
               <li class="address__panel">
                 <a href="mailto:info@devstudio.com" class="address__mail">info@devstudio.com</a>
               </li>
-
               <li class="address__panel">
                 <a href="tel:+380961111111" class="address__tel">+38 096 111 11 11</a>
               </li>
-
             </ul>
           </address>
         </div>
@@ -274,7 +271,7 @@
         <div class="footer-second">
           <h3 class="footer__title">приєднуйтесь</h3>
           <ul class="footer__social-links list">
-            <li class="footer__social-links">
+            <li class="footer__social-link">
               <a class="footer__network" href="#">
                 <svg class="footer__social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2-2"></use>
@@ -282,7 +279,7 @@
               </a>
             </li>
 
-            <li class="footer__social-links">
+            <li class="footer__social-link">
               <a class="footer__network" href="#">
                 <svg class="footer__social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1-2"></use>
@@ -290,7 +287,7 @@
               </a>
             </li>
 
-            <li class="footer__social-links">
+            <li class="footer__social-link">
               <a class="footer__network" href="#">
                 <svg class="footer__social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1-2"></use>
@@ -298,7 +295,7 @@
               </a>
             </li>
 
-            <li class="footer__social-links">
+            <li class="footer__social-link">
               <a class="footer__network" href="#">
                 <svg class="footer__social-icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2-2"></use>
@@ -311,9 +308,9 @@
         <div class="footer-third">
           <h3 class="invite">Підпишіться на розсилку</h3>
           <form class="subscription-form">
-            <input type="email" class="subscription__input" name="email" placeholder="E-mail">
-              <button type="submit" class="subscription__button">Підписатися
-                <svg class="subscription-button__icon" width="24" height="24">
+            <input type="email" class="subscription-input" name="email" placeholder="E-mail">
+              <button type="submit" class="subscription-button">Підписатися
+                <svg class="subscription-button-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-icon-send-2"></use>
                 </svg>
               </button>              
